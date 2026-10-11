@@ -57,6 +57,7 @@ Available Datasets
    medmnist
    awa2
    beans
+   deep_weeds
    stl10
    tiny_imagenet
    tiny_imagenet_c

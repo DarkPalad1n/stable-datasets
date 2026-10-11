@@ -13,6 +13,7 @@ from .cifar100_c import CIFAR100C
 from .clevrer import CLEVRER
 from .country211 import Country211
 from .cub200 import CUB200
+from .deep_weeds import DeepWeeds
 from .dsprites import DSprites
 from .dsprites_color import DSpritesColor
 from .dsprites_noise import DSpritesNoise
@@ -61,6 +62,7 @@ __all__ = [
     "CLEVRER",
     "Country211",
     "CUB200",
+    "DeepWeeds",
     "DSprites",
     "DSpritesColor",
     "DSpritesNoise",
