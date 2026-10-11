@@ -153,6 +153,13 @@ DATASET_CONFIGS: dict[str, DatasetConfig] = {
         mean=[0.4707, 0.4602, 0.4550],
         std=[0.2920, 0.2918, 0.2972],
     ),
+    "cct20": _rgb(
+        "cct20",
+        "CCT20",
+        15,
+        mean=[0.3336, 0.3420, 0.3209],
+        std=[0.2282, 0.2291, 0.2218],
+    ),
     "deepweeds": _rgb(
         "deepweeds",
         "DeepWeeds",

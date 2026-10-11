@@ -6,6 +6,7 @@ from .awa2 import AWA2
 from .beans import Beans
 from .cars3d import Cars3D
 from .cars196 import Cars196
+from .cct20 import CCT20
 from .cifar10 import CIFAR10
 from .cifar10_c import CIFAR10C
 from .cifar100 import CIFAR100
@@ -55,6 +56,7 @@ __all__ = [
     "Beans",
     "Cars196",
     "Cars3D",
+    "CCT20",
     "CIFAR10",
     "CIFAR10C",
     "CIFAR100",
