@@ -69,7 +69,6 @@ def fake_deepweeds(tmp_path, monkeypatch):
     return tmp_path
 
 
-@pytest.mark.large
 def test_deep_weeds_real_data():
     """Real download: official subset0 sizes, class names and image format."""
     ds = DeepWeeds()  # default variant subset0, all splits

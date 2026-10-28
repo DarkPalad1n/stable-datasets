@@ -93,7 +93,6 @@ def test_labels_locations_and_rgb(fake_cct20):
     assert train.features["label"].names[14] == "rodent"
 
 
-@pytest.mark.large
 def test_cct20_real_data():
     """Real download: official split sizes after the documented exclusions, class names and image format."""
     ds = CCT20()

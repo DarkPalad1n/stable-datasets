@@ -56,7 +56,11 @@ class DeepWeeds(BaseDatasetBuilder):
                             Jamie Johns and
                             Wesley Banks and
                             Benjamin Girgenti and
-                            Owen Kenny,
+                            Owen Kenny and
+                            James Whinney and
+                            Brendan Calvert and
+                            Mostafa {Rahimi Azghadi} and
+                            Ronald D. White},
                         title = {{DeepWeeds: A Multiclass Weed Species Image Dataset for Deep Learning}},
                         journal = {Scientific Reports},
                         year = 2019,
