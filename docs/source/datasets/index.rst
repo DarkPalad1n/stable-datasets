@@ -115,6 +115,13 @@ Available Datasets
 
 .. toctree::
    :maxdepth: 1
+   :caption: Time Series Classification Datasets
+
+   epilepsy
+   racket_sports
+
+.. toctree::
+   :maxdepth: 1
    :caption: Time Series Forecasting Datasets
 
    electricity_hourly
