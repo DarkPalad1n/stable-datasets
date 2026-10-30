@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 from .audiomnist import AudioMNIST
+from .basic_motions import BasicMotions
 from .birdvox_dcase_20k import BirdVoxDCASE20k
 from .CatsDogs import CatsDogs
 from .electricity_hourly import ElectricityHourly
@@ -9,8 +10,10 @@ from .freefield1010 import Freefield1010
 from .fsd_kaggle_2018 import FSDKaggle2018
 from .groove_MIDI import GrooveMIDI
 from .gtzan import GTZAN
+from .hand_movement_direction import HandMovementDirection
 from .JapaneseVowels import JapaneseVowels
 from .MosquitoSound import MosquitoSound
+from .natops import NATOPS
 from .Phoneme import Phoneme
 from .picidae import Picidae
 from .racket_sports import RacketSports
@@ -19,6 +22,7 @@ from .sonycust import SONYCUST
 from .speech_commands import SpeechCommands
 from .uber_tlc import UberTLC
 from .UrbanSound import UrbanSound
+from .uwave_gesture_library import UWaveGestureLibrary
 from .vocalset import VocalSet
 from .VoiceGenderDetection import VoiceGenderDetection
 from .warblr import Warblr
@@ -26,6 +30,7 @@ from .warblr import Warblr
 
 __all__ = [
     "AudioMNIST",
+    "BasicMotions",
     "BirdVoxDCASE20k",
     "CatsDogs",
     "ElectricityHourly",
@@ -34,8 +39,10 @@ __all__ = [
     "FSDKaggle2018",
     "GrooveMIDI",
     "GTZAN",
+    "HandMovementDirection",
     "JapaneseVowels",
     "MosquitoSound",
+    "NATOPS",
     "Phoneme",
     "Picidae",
     "RacketSports",
@@ -44,6 +51,7 @@ __all__ = [
     "SpeechCommands",
     "UberTLC",
     "UrbanSound",
+    "UWaveGestureLibrary",
     "VoiceGenderDetection",
     "VocalSet",
     "Warblr",

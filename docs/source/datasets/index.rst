@@ -125,8 +125,12 @@ Available Datasets
    :maxdepth: 1
    :caption: Time Series Classification Datasets
 
+   basic_motions
    epilepsy
+   hand_movement_direction
+   natops
    racket_sports
+   uwave_gesture_library
 
 .. toctree::
    :maxdepth: 1
